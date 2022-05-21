@@ -11,9 +11,12 @@ function setup(){
     canvas.center();
     video = createCapture(VIDEO);
     video.hide();
+}
 
+function start(){
     objectDetector = ml5.objectDetector('cocossd' , modelLoaded);
     document.getElementById("status").innerHTML = "STATUS : DETECTING OBJECTS";
+    thing = document.getElementById("thing").value;
 }
 
 function modelLoaded(){
