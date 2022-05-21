@@ -1,0 +1,64 @@
+body{
+    background-position: center;
+    background-size: cover;
+
+    font-family: 'Asap', sans-serif;
+font-family: 'Hubballi', cursive;
+}
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+canvas{
+    margin-top: 125px;
+    box-shadow: 1px 1px 40px yellow;
+    border-radius: 10px;
+    border: 5px solid yellow;
+}
+
+.copy_right_footer
+{
+  position: fixed;
+  background-color: ghostwhite;
+  color: black;
+  font-size: medium;
+  width:100%;
+  bottom: 0;
+  text-align: center;
+  line-height: 3;
+  font-weight: bolder;
+  text-shadow: 0 0 3px #FF0000;
+}
+
+.form-control{
+    width: 50% !important;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 10px 30px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
